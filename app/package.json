@@ -1,0 +1,22 @@
+{
+  "name": "stroller-tag-studio",
+  "version": "1.0.0",
+  "description": "Custom family stroller tags with 3D preview and printable STL and 3MF exports",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node tests/geometry.mjs",
+    "start": "node server.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "type": "module",
+  "dependencies": {
+    "esbuild": "^0.28.2",
+    "fflate": "^0.8.3",
+    "manifold-3d": "^3.5.4",
+    "opentype.js": "^2.0.0",
+    "three": "^0.186.1"
+  }
+}

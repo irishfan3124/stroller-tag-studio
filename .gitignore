@@ -1,0 +1,8 @@
+node_modules/
+test-output/
+.openai/
+.sites-runtime/
+tools/publish-source.mjs
+tools/github-publish.py
+*.tar.gz
+*.zip
